@@ -12,7 +12,7 @@ public class ExcelDataProvider {
 
 		
 
-		File src = new File("C:\\Users\\VeenaA\\eclipse-workspace\\MavenDemoProject\\TestData\\LoginData.xlsx");
+		File src = new File("C:\\Users\\VeenaA\\git\\Framework\\MavenDemoProject\\TestData\\LoginData.xlsx");
 		
 		try {
 			FileInputStream fin = new FileInputStream(src);
