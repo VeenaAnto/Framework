@@ -35,8 +35,10 @@ public class BaseClass {
 		Reporter.log("Setting up reports and Test getting ready", true);
 		excel = new ExcelDataProvider();
 		config = new ConfigDataProvider();
-		ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir")
-				+ "/Reports/OracleCloudExtentReport" + Helper.getCurrentDateTime() + ".html");
+		/**ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir")
+				+ "/Reports/OracleCloudExtentReport" + Helper.getCurrentDateTime() + ".html");*/
+				ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir")
+						+ "/Reports/OracleCloudExtentReport.html");
 		report = new ExtentReports();
 		report.attachReporter(reporter);
 		Reporter.log("Setting done successfully - Test can be started", true);
