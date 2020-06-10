@@ -38,7 +38,7 @@ public class BaseClass {
 		/**ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir")
 				+ "/Reports/OracleCloudExtentReport" + Helper.getCurrentDateTime() + ".html");*/
 				ExtentHtmlReporter reporter = new ExtentHtmlReporter(System.getProperty("user.dir")
-						+ "/Reports/OracleCloudExtentReport.html");
+						+ "/Reports/OracleCloudExtentReportLatest.html");
 		report = new ExtentReports();
 		report.attachReporter(reporter);
 		Reporter.log("Setting done successfully - Test can be started", true);
