@@ -6,7 +6,6 @@
       <class name="com.auto.cloud.testcases.OracleCloudTestcase">
         <methods>
           <include name="loginApplication"/>
-          <include name="setUpReport"/>
           <include name="tearDownMethod"/>
           <include name="closeBrowser"/>
           <include name="setUpSuite"/>

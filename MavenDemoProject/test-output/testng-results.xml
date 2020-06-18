@@ -19,13 +19,34 @@
     <line>
       <![CDATA[Application logged in Successfully]]>
     </line>
+    <line>
+      <![CDATA[Navigator clicked]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Link - Users And Roles]]>
+    </line>
+    <line>
+      <![CDATA[Verify fetched User details]]>
+    </line>
+    <line>
+      <![CDATA[Clicked on Save button]]>
+    </line>
+    <line>
+      <![CDATA[OracleCloudUsersRoleTest Passed]]>
+    </line>
+    <line>
+      <![CDATA[Extent Report initiated for reporting results]]>
+    </line>
+    <line>
+      <![CDATA[Test completed successfully >>>>> Reports generated]]>
+    </line>
   </reporter-output>
-  <suite name="Suite" duration-ms="18413" started-at="2020-05-21T03:09:58Z" finished-at="2020-05-21T03:10:16Z">
+  <suite name="Suite" duration-ms="50494" started-at="2020-06-18T05:09:35Z" finished-at="2020-06-18T05:10:25Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="18413" started-at="2020-05-21T03:09:58Z" finished-at="2020-05-21T03:10:16Z">
+    <test name="Test" duration-ms="50494" started-at="2020-06-18T05:09:35Z" finished-at="2020-06-18T05:10:25Z">
       <class name="com.auto.cloud.testcases.OracleCloudTestcase">
-        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="setUpSuite" is-config="true" duration-ms="675" started-at="2020-05-21T03:09:57Z" finished-at="2020-05-21T03:09:58Z">
+        <test-method status="PASS" signature="setUpSuite()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="setUpSuite" is-config="true" duration-ms="957" started-at="2020-06-18T05:09:34Z" finished-at="2020-06-18T05:09:35Z">
           <reporter-output>
             <line>
               <![CDATA[Setting up reports and Test getting ready]]>
@@ -35,7 +56,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUpSuite -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="setUp" is-config="true" duration-ms="11483" started-at="2020-05-21T03:09:58Z" finished-at="2020-05-21T03:10:09Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="setUp" is-config="true" duration-ms="13749" started-at="2020-06-18T05:09:35Z" finished-at="2020-06-18T05:09:48Z">
           <reporter-output>
             <line>
               <![CDATA[Trying to start browser instance for opening application]]>
@@ -45,7 +66,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="loginApplication()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="loginApplication" duration-ms="5356" started-at="2020-05-21T03:10:09Z" finished-at="2020-05-21T03:10:15Z">
+        <test-method status="PASS" signature="loginApplication()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="loginApplication" duration-ms="34855" started-at="2020-06-18T05:09:48Z" finished-at="2020-06-18T05:10:23Z">
           <reporter-output>
             <line>
               <![CDATA[Application Login initiated]]>
@@ -53,9 +74,24 @@
             <line>
               <![CDATA[Application logged in Successfully]]>
             </line>
+            <line>
+              <![CDATA[Navigator clicked]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Link - Users And Roles]]>
+            </line>
+            <line>
+              <![CDATA[Verify fetched User details]]>
+            </line>
+            <line>
+              <![CDATA[Clicked on Save button]]>
+            </line>
+            <line>
+              <![CDATA[OracleCloudUsersRoleTest Passed]]>
+            </line>
           </reporter-output>
         </test-method> <!-- loginApplication -->
-        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="tearDownMethod" is-config="true" duration-ms="735" started-at="2020-05-21T03:10:15Z" finished-at="2020-05-21T03:10:15Z">
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="tearDownMethod" is-config="true" duration-ms="996" started-at="2020-06-18T05:10:23Z" finished-at="2020-06-18T05:10:24Z">
           <params>
             <param index="0">
               <value>
@@ -64,9 +100,15 @@
             </param>
           </params>
           <reporter-output>
+            <line>
+              <![CDATA[Extent Report initiated for reporting results]]>
+            </line>
+            <line>
+              <![CDATA[Test completed successfully >>>>> Reports generated]]>
+            </line>
           </reporter-output>
         </test-method> <!-- tearDownMethod -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="closeBrowser" is-config="true" duration-ms="809" started-at="2020-05-21T03:10:15Z" finished-at="2020-05-21T03:10:16Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.auto.cloud.testcases.OracleCloudTestcase@4883b407]" name="closeBrowser" is-config="true" duration-ms="866" started-at="2020-06-18T05:10:24Z" finished-at="2020-06-18T05:10:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
